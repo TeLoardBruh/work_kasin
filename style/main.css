@@ -1,0 +1,58 @@
+/* body{
+  background-color: #15667E;
+} */
+/* .carousel-indicators {
+  background-color: #15667E;
+  width: 100%;
+
+} */
+
+.navbar-custom { 
+  background-color: #0e3642; 
+} 
+
+.name-header{
+  background-color: #15667E;
+  height: 70px;
+  width: 100% !important;
+  color: white;
+  font-size: 30px;
+}
+.navbar-custom-top { 
+  background-color: #bcbcbd;
+  height: 80px; 
+} 
+.carousel-indicators li {
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      background-color: wheat;
+      
+
+}
+
+
+.carousel .carousel-inner {
+      height: 300px !important;
+  }
+
+
+.scrolling-wrapper { 
+    overflow-x:scroll;
+    overflow-y:hidden;
+    white-space:nowrap;
+}
+.card {
+  display: inline-block !important;
+}
+
+
+.logo-team{
+  width: 100px;
+}
+
+
+.color-card{
+  background-color: #0e3642;
+  color: white;
+}
