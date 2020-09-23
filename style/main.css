@@ -1,11 +1,12 @@
-/* body{
+body{
   background-color: #15667E;
-} */
+}
 /* .carousel-indicators {
   background-color: #15667E;
   width: 100%;
 
 } */
+
 
 .navbar-custom { 
   background-color: #0e3642; 
@@ -23,6 +24,7 @@
   height: 80px; 
 } 
 .carousel-indicators li {
+      /* padding-top: 10px; */
       height: 15px;
       width: 15px;
       border-radius: 50%;
@@ -33,7 +35,7 @@
 
 
 .carousel .carousel-inner {
-      height: 300px !important;
+      height: 400px !important;
   }
 
 
@@ -48,11 +50,55 @@
 
 
 .logo-team{
-  width: 100px;
+  width: 150px;
+  height: 100px;
+  border: none;
 }
 
 
 .color-card{
   background-color: #0e3642;
   color: white;
+  width: auto;
+  border-radius: 0 0 10% 10%;
+}
+.card-img-top{
+  width: 400px;
+  height: 300px;
+}
+
+.game-slider{
+  background-color: #0e3642;
+}
+.sport-team{
+  background-color: #0e3642;
+
+}
+
+
+/* footer */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
 }
